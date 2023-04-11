@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Header } from '@component/component/header/header'
+import { Base } from '@component/component/home/Home'
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
       </Head>
-      <main>
-        <Header />
+      <Header />
+      <main className='main'>
+        <Base />
       </main>
     </>
   )
