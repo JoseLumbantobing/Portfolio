@@ -1,9 +1,5 @@
 import Head from 'next/head'
-// import Image from 'next/image'
-// import { Inter } from 'next/font/google'
-// import styles from '@component/styles/Home.module.css'
-
-// const inter = Inter({ subsets: ['latin'] })
+import { Header } from '@component/component/header/header'
 
 export default function Home() {
   return (
@@ -14,10 +10,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
       </Head>
       <main>
-        <h1>Hello</h1>
+        <Header />
       </main>
     </>
   )

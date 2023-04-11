@@ -31,7 +31,7 @@
   /* ====== Colors ====== */
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color: hsl(var(--hue), var(--sat), 25%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
@@ -138,6 +138,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 button {
   cursor: pointer;
   border: none;
@@ -207,4 +211,26 @@ img {
   html {
     color-scheme: dark;
   }
+}
+
+
+/* Breakpoints */
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }  
+}
+
+@media screen and (max-width: 768px) { 
+}
+
+@media screen and (max-width: 576px) { 
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  } 
 }
