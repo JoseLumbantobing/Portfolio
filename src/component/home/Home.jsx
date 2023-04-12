@@ -1,5 +1,6 @@
 import React from 'react'
 import { Data } from './Data'
+import { ScrollDown } from './ScrollDown'
 import { Social } from './Social'
 
 export const Base = () => {
@@ -13,6 +14,8 @@ export const Base = () => {
 
                 <Data />
             </div>
+
+            <ScrollDown />
         </div>
     </section>
   )

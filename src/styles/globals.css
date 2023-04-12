@@ -216,21 +216,44 @@ img {
 
 /* Breakpoints */
 @media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 3.25rem;
+  }
+
   .container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-  }  
+  }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 @media screen and (max-width: 768px) { 
+  :root {
+    --big-font-size: 3rem;
+  }
+
+  .section {
+    padding: 2rem 0 4rem;
+  }
 }
 
 @media screen and (max-width: 576px) { 
+  :root {
+    --big-font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 350px) {
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
-  } 
+  }
 }
