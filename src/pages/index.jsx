@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Header } from '@component/component/header/header'
 import { Base } from '@component/component/home/Home'
+import { About } from '@component/component/about/About'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <main className='main'>
         <Base />
+        <About />
       </main>
     </>
   )

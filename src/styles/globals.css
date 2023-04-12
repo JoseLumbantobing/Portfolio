@@ -240,7 +240,15 @@ img {
     --big-font-size: 3rem;
   }
 
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
   .section {
+    padding: 2rem 0 4rem;
+  }
+
+  .section__subtitle {
     padding: 2rem 0 4rem;
   }
 }
