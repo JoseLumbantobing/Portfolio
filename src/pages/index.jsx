@@ -3,6 +3,7 @@ import { Header } from '@component/component/header/header'
 import { Base } from '@component/component/home/Home'
 import { About } from '@component/component/about/About'
 import { Skills } from '@component/component/skills/Skills'
+import { Portfolio } from '@component/component/portfolio/Portfolio'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Base />
         <About />
         <Skills />
+        <Portfolio />
       </main>
     </>
   )
