@@ -4,6 +4,7 @@ import { Base } from '@component/component/home/Home'
 import { About } from '@component/component/about/About'
 import { Skills } from '@component/component/skills/Skills'
 import { Portfolio } from '@component/component/portfolio/Portfolio'
+import { Qualification } from '@component/component/qualification/Qualification'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <main className='main'>
         <Base />
         <About />
+        <Qualification />
         <Skills />
         <Portfolio />
       </main>
