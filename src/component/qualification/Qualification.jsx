@@ -23,7 +23,7 @@ export const Qualification = () => {
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title">Bachelor Of Electrical Engineering<br />
-                  (Specialization: Computer)</h3>
+                  (Field of Interest: Computer)</h3>
                   <span className="qualification__subtitle">Del Institute of Technology</span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender-alt"></i>
