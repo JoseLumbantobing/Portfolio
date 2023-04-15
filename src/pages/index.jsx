@@ -7,6 +7,7 @@ import { Portfolio } from '@component/component/portfolio/Portfolio'
 import { Qualification } from '@component/component/qualification/Qualification'
 import { Contact } from '@component/component/contact/Contact'
 import { Footer } from '@component/component/footer/Footer'
+import { ScrollUp } from '@component/component/scrollup/ScrollUp'
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
       </Head>
+
       <Header />
+
       <main className='main'>
         <Base />
         <About />
@@ -27,8 +30,10 @@ export default function Home() {
         <Skills />
         <Portfolio />
         <Contact />
-        <Footer />
       </main>
+
+      <Footer />
+      <ScrollUp />
     </>
   )
 }
