@@ -23,7 +23,9 @@ export const Qualification = () => {
               <div className="qualification__data">
                 <div>
                   <h3 className="qualification__title">Bachelor Of Electrical Engineering<br />
-                  (Field of Interest: Computer)</h3>
+                  (Field of Interest: Computer) <br />
+                  GPA: 3.43
+                  </h3>
                   <span className="qualification__subtitle">Del Institute of Technology</span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender-alt"></i>
@@ -47,7 +49,9 @@ export const Qualification = () => {
 
                 <div>
                   <h3 className="qualification__title">Electrical Engineering</h3>
-                  <span className="qualification__subtitle">Lembaga Penerbangan dan Antariksa Nasional (LAPAN)</span>
+                  <span className="qualification__subtitle">Lembaga Penerbangan dan Antariksa Nasional (LAPAN) <br />
+                  Project: Building a sensor device as a communication system between earth data to satellites.
+                  </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender-alt"></i>
                     Jun, 2021 - Aug, 2021

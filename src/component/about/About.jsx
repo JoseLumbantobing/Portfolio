@@ -14,7 +14,7 @@ export const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias debitis natus sequi tenetur iste. Quae quia, deserunt nulla modi quibusdam in vitae fugiat labore sunt molestiae quidem fugit reprehenderit consequatur.
+                I am a 23 years old fresh graduate who is currently looking for a job vacancies. When I was in college, I was active in organizations and participated in many committee activities, so I am good at working with teams. I have a great interest in web development especially Frontend development and devote my time and hard work in this field.
                 </p>
                 <a download="" href='../../assets/CV_Jose-Lumbantobing.pdf' className="button button--flex">Download CV
                     <svg

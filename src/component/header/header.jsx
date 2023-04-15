@@ -3,8 +3,14 @@ import React, { useState } from 'react'
 export const Header = () => {
   globalThis?.window?.addEventListener('scroll', function() {
     const header = document.querySelector(".header");
-    if (this.scrollY >= 80) header.classList.add("scroll-header");
-    else header.classList.remove("scroll-header");
+    if (this.scrollY >= 80) {
+      header.classList.add("scroll-header");
+      header.style.backgroundColor = "rgba(250, 250, 250, 0.9)";
+    }
+    else {
+      header.classList.remove("scroll-header");
+      header.style.backgroundColor = "rgb(250, 250, 250)";
+    }
   });
 
   const [toggle, setToggle] = useState(false);
