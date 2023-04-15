@@ -39,7 +39,7 @@ export const Portfolio = () => {
       >
         {projectsData.map(item => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={item.id}>
               <Works item={item} key={item.id} />
             </SwiperSlide>
         )})}

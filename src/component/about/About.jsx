@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import AboutMe from '../../assets/AboutMe.jpg'
 import { Info } from './Info'
@@ -10,7 +11,7 @@ export const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__container container grid">
-            <img src={AboutMe.src} alt="profile" className='about__img' />
+            <Image src={AboutMe.src} alt="Profile Image" className='about__img' />
             <div className="about__data">
                 <Info />
                 <p className="about__description">
