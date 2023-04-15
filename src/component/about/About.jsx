@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import AboutMe from '../../assets/AboutMe.jpg'
 import { Info } from './Info'
-// import CV from '../../assets/CV_Jose-Lumbantobing.pdf'
 
 export const About = () => {
   return (
@@ -11,13 +10,13 @@ export const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__container container grid">
-            <Image src={AboutMe.src} alt="Profile Image" className='about__img' />
+            <Image src={AboutMe.src} alt="Profile Image" width="350" height="227" className='about__img' />
             <div className="about__data">
                 <Info />
                 <p className="about__description">
                 I am a 23 years old fresh graduate who is currently looking for a job vacancies. When I was in college, I was active in organizations and participated in many committee activities, so I am good at working with teams. I have a great interest in web development especially Frontend development and devote my time and hard work in this field.
                 </p>
-                <a download="" href='../../assets/CV_Jose-Lumbantobing.pdf' className="button button--flex">Download CV
+                <a download="" href='../../assets/CV_Jose Lumbantobing.pdf' className="button button--flex">Download CV
                     <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"

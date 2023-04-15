@@ -21,7 +21,6 @@ export const Header = () => {
     <header className="header">
         <nav className="nav container">
           <Link href="/" className='nav__logo'>Jose Tobing</Link>
-          {/* <a href="/" className='nav__logo'>Jose Tobing</a> */}
 
           <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
             <ul className="nav__list grid">
