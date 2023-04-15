@@ -6,6 +6,7 @@ import '../component/skills/skills.css'
 import '../component/portfolio/portfolio.css'
 import '../component/qualification/qualification.css'
 import '../component/contact/contact.css'
+import '../component/footer/footer.css'
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />

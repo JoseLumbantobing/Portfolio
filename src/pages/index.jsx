@@ -6,6 +6,7 @@ import { Skills } from '@component/component/skills/Skills'
 import { Portfolio } from '@component/component/portfolio/Portfolio'
 import { Qualification } from '@component/component/qualification/Qualification'
 import { Contact } from '@component/component/contact/Contact'
+import { Footer } from '@component/component/footer/Footer'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Skills />
         <Portfolio />
         <Contact />
+        <Footer />
       </main>
     </>
   )
