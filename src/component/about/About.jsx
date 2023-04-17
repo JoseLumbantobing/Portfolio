@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import AboutMe from '../../assets/AboutMe.jpg'
 import { Info } from './Info'
@@ -16,7 +17,7 @@ export const About = () => {
                 <p className="about__description">
                 I am a 23 years old fresh graduate who is currently looking for a job vacancies. When I was in college, I was active in organizations and participated in many committee activities, so I am good at working with teams. I have a great interest in web development especially Frontend development and devote my time and hard work in this field.
                 </p>
-                <a download="" href='../../assets/CV_Jose Lumbantobing.pdf' className="button button--flex">Download CV
+                <Link download="" href='/CV_Jose Lumbantobing.pdf' className="button button--flex">Download CV
                     <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +43,7 @@ export const About = () => {
                     fill="var(--container-color)"
                     ></path>
                     </svg>
-                </a>
+                </Link>
             </div>
         </div>
     </section>
