@@ -58,6 +58,27 @@ export const Qualification = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="qualification__data">
+                <div></div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 className="qualification__title">Software Engineering</h3>
+                  <span className="qualification__subtitle">PT. Idea Kolaborasi Utama <br />
+                  Building a prototype of a mobile banking application using Angular and accessing data through a database using phpMyAdmin.
+                  Developing the backend of the Digital Society mobile application using Spring Boot and managing the database using phpMyAdmin.
+                  </span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calender-alt"></i>
+                    Oct, 2023 - Apr, 2024
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
