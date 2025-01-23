@@ -17,7 +17,7 @@ export const About = () => {
                 <p className="about__description">
                 I am 24 years old and hold a Bachelor's degree in Computer Engineering from Del Institute of Technology, with a GPA of 3.43. Throughout my college years, I actively participated in various organizations and achieved several milestones. Currently, I am focused on self-development through bootcamp training, self-study, and engaging in projects to enhance my knowledge and skills, particularly in frontend development. I am someone who enjoys learning new things and thrives on the challenge of solving problems that arise in the workplace.
                 </p>
-                <Link download="" href='/Jose Lumbantobing_Curriculum Vitae.pdf' className="button button--flex">Download CV
+                <Link download="" href='/CV - Jose Lumbantobing.pdf' className="button button--flex">Download CV
                     <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"
