@@ -79,6 +79,31 @@ export const Qualification = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="qualification__data">
+                <div></div>
+
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 className="qualification__title">QA Engineering</h3>
+                  <span className="qualification__subtitle">PT. Bank Negara Indonesia <br />
+                  <ul>
+                    <li>Conducted manual testing of applications and banking systems on Desktop, Web, and Mobile (Android & IOS) devices to track defects, inconsistencies, and bugs as well as application performance.</li>
+                    <li>Used database technology, mySql, Figma, MobaXterm (server and SSH client), postman as testing tools.</li>
+                    <li>Contribute to process improvement discussions and implement best practices in testing workflows and ensure timely completion of testing tasks to meet project deadlines.</li>
+                    <li>Create, maintain, and update test documentation, including test plans, cases, and scripts.</li>
+                  </ul>
+                  </span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calender-alt"></i>
+                    May, 2024 - Dec, 2024
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
