@@ -56,6 +56,7 @@ export const Qualification = () => {
                     <i className="uil uil-calender-alt"></i>
                     Jun, 2021 - Aug, 2021
                   </div>
+                  <span></span>
                 </div>
               </div>
 
@@ -77,6 +78,7 @@ export const Qualification = () => {
                     <i className="uil uil-calender-alt"></i>
                     Oct, 2023 - Apr, 2024
                   </div>
+                  <span></span>
                 </div>
               </div>
 
@@ -93,7 +95,6 @@ export const Qualification = () => {
                   <span className="qualification__subtitle">PT. Bank Negara Indonesia <br />
                   <ul>
                     <li>Conducted manual testing of applications and banking systems on Desktop, Web, and Mobile (Android & IOS) devices to track defects, inconsistencies, and bugs as well as application performance.</li>
-                    <li>Used database technology, mySql, Figma, MobaXterm (server and SSH client), postman as testing tools.</li>
                     <li>Contribute to process improvement discussions and implement best practices in testing workflows and ensure timely completion of testing tasks to meet project deadlines.</li>
                     <li>Create, maintain, and update test documentation, including test plans, cases, and scripts.</li>
                   </ul>
